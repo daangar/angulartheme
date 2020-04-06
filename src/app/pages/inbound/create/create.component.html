@@ -1,0 +1,88 @@
+<div class="row">
+    <div class="col-12">
+      <h5><i class="fas fa-pallet"></i> Create an order</h5>
+      <hr>
+    </div>
+  </div>
+<div class="row">    
+    <div class="col-lg-6">
+    <nb-card>
+        <nb-card-header>Destination</nb-card-header>
+        <nb-card-body>
+            <nb-select selected="1">
+                <nb-option value="1">COI-3</nb-option>
+                <nb-option value="2">NJ</nb-option>
+            </nb-select>
+        </nb-card-body>
+    </nb-card>
+
+      <nb-card>
+        <nb-card-header>Origin</nb-card-header>
+        <nb-card-body>
+            <nb-select selected="1">
+                <nb-option value="1">COI-3</nb-option>
+                <nb-option value="2">NJ</nb-option>
+            </nb-select>
+          <input type="text" nbInput fullWidth placeholder="Address 1">
+          <input type="text" nbInput fullWidth placeholder="Address 2">
+          <input type="text" nbInput fullWidth placeholder="City">
+          <nb-select selected="1" >
+            <nb-option value="1">California</nb-option>
+            <nb-option value="2">Florida</nb-option>
+            </nb-select>
+            <input type="text" nbInput fullWidth placeholder="Zip">
+            <input type="text" nbInput fullWidth placeholder="Phone">
+            <input type="text" nbInput fullWidth placeholder="Email">        
+        </nb-card-body>
+      </nb-card>
+
+      <nb-card>
+        <nb-card-header>Freight Info</nb-card-header>
+        <nb-card-body>           
+          <input type="text" nbInput fullWidth placeholder="# of Pallets">
+          <input type="text" nbInput fullWidth placeholder="PO">
+          <input type="text" nbInput fullWidth placeholder="Inbound Date">
+          <input type="text" nbInput fullWidth placeholder="Weight [in Lbs]">
+          Container floor unload
+          <nb-select selected="1" aria-placeholder="Container floor unload">
+                <nb-option value="1">No</nb-option>
+                <nb-option value="2">Yes</nb-option>
+            </nb-select>
+            <input type="text" nbInput fullWidth placeholder="Cases">        
+        </nb-card-body>
+      </nb-card>
+
+      <nb-card>
+        <nb-card-header>Carrier Info</nb-card-header>
+        <nb-card-body>
+            <nb-radio-group [(value)]="radioGroupValue">
+                <nb-radio
+                  [value]="'This is value 1'">
+                  PGS
+                </nb-radio>
+                <nb-radio
+                  [value]="'This is value 2'">
+                  Other
+                </nb-radio>               
+              </nb-radio-group>    
+        </nb-card-body>
+      </nb-card>    
+
+      <nb-card>
+        <nb-card-header>SKU Info</nb-card-header>
+        <nb-card-body>
+            SKU
+            <nb-select selected="1">
+                <nb-option value="1">IMMUNE</nb-option>
+                <nb-option value="2">SPBOX</nb-option>
+            </nb-select>
+            <input type="text" nbInput fullWidth placeholder="Quantity">
+            <button nbButton>Add</button>
+        </nb-card-body>
+      </nb-card>
+      <div style="text-align: right;">
+        <button nbButton status="primary">Save</button>
+      </div>      
+    </div>
+  </div>
+  

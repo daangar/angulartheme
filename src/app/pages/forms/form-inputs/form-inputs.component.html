@@ -1,0 +1,557 @@
+<div class="row">
+  <div class="col-12">
+    <h5><i class="fa fa-truck"></i> Enter a shipment</h5>
+    <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <nb-card>
+      <nb-card-header>Main Information</nb-card-header>
+      <nb-card-body>
+        <input type="text" nbInput fullWidth placeholder="Customer Name">
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="Submitted By">
+          <input type="text" nbInput fullWidth placeholder="Email">
+        </div>
+        <div class="row">
+          <div class="col-4">
+            Freight charges:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0">[Select]</nb-option>
+              <nb-option value="1">3rd Party Prepaid</nb-option>
+              <nb-option value="2">Collect</nb-option>
+              <nb-option value="2">Prepaid</nb-option>
+            </nb-select>
+          </div>
+        </div>
+       
+        
+      
+      </nb-card-body>
+    </nb-card>
+    <nb-card>
+      <nb-card-header>Load Information</nb-card-header>
+      <nb-card-body>
+        <div class="row">
+          <div class="col-4">
+            Type:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0">Freight</nb-option>
+              <nb-option value="1">Container</nb-option>           
+            </nb-select>
+          </div>
+        </div>
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="# of Pallets">
+          <input type="text" nbInput fullWidth placeholder="Weight[in lbs]">
+        </div>
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="# of Pieces">
+         
+        </div>
+        <div class="row">
+          <div class="col-4">
+            Class:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0">50</nb-option>
+              <nb-option value="1">55</nb-option> 
+              <nb-option value="3">60</nb-option>  
+              <nb-option value="4">65</nb-option>  
+              <nb-option value="5">70</nb-option>  
+              <nb-option value="6">77</nb-option>  
+              <nb-option value="7">85</nb-option>  
+              <nb-option value="8">92</nb-option>  
+              <nb-option value="9">100</nb-option>  
+
+            </nb-select>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-4">
+            Thibiant Commodity:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0">FG</nb-option>
+              <nb-option value="1">Chemicals</nb-option> 
+              <nb-option value="1">Components</nb-option>           
+            </nb-select>
+          </div>
+        </div> 
+        <input type="text" nbInput fullWidth placeholder="PO#">
+        <div class="demo-items">
+          <nb-checkbox> Temperature Contro?</nb-checkbox>
+          <br>
+          <br>
+          <nb-checkbox> Stackable?</nb-checkbox>
+          <br>
+          <br>
+          <nb-checkbox> Hazmat?</nb-checkbox>
+          <br>
+          <br>
+          <nb-checkbox> Pickup Numbe?</nb-checkbox>
+        </div>
+        <input type="text" nbInput fullWidth placeholder="Commodity">
+        <div class="row">
+          <div class="col-2">
+            Dims:
+          </div>
+          <div class="col-2">  <input type="text" nbInput fullWidth placeholder="L"></div>
+          <div class="col-2">  <input type="text" nbInput fullWidth placeholder="W"></div>
+          <div class="col-2">  <input type="text" nbInput fullWidth placeholder="H"></div>
+          <div class="col-4">  <input type="text" nbInput fullWidth placeholder="PLT"></div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-lg-6">
+
+    <nb-card>
+      <nb-card-header>Shipper</nb-card-header>
+      <nb-card-body>
+        <div class="row">
+          <div class="col-4">
+            Location Name:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0" data-select2-id="">[Select]</nb-option>
+              <nb-option value="86555" data-select2-id="3778"> CARIBBEAN NATURAL PRODUCTS - NJ</nb-option>
+              <nb-option value="69196" data-select2-id="3779"> Innotrac - OH</nb-option>
+              <nb-option value="84238" data-select2-id="3780"> port city logistc  - GA</nb-option>
+              <nb-option value="98690" data-select2-id="3781">(Sheraton Crossroads Building ) Mibelle Biochemistry - NJ</nb-option>
+              <nb-option value="68573" data-select2-id="3782">.AAK - NJ</nb-option>
+              <nb-option selected="selected" value="0" data-select2-id="2829">[Select]</nb-option>
+              <nb-option value="113917" data-select2-id="3783">[Select] - NJ</nb-option>
+              <nb-option value="111775" data-select2-id="3784">36000067 - STEPHEN GOULD CORP - OH</nb-option>
+              <nb-option value="111867" data-select2-id="3785">36013858 - STEPHEN GOULD/IMPACT FULFILLM - OH</nb-option>
+              <nb-option value="76865" data-select2-id="3786">3DS Purac c/o Caravan Ingrediants - NJ</nb-option>
+              <nb-option value="97075" data-select2-id="3787">60638 - IL</nb-option>
+              <nb-option value="97076" data-select2-id="3788">91311 - CA</nb-option>
+              <nb-option value="83447" data-select2-id="3789">9315 Oso Ave. - CA</nb-option>
+              <nb-option value="96946" data-select2-id="3790">A. Duie Pyle - NJ</nb-option>
+              <nb-option value="72345" data-select2-id="3791">A.R. ARENA - NY</nb-option>
+              <nb-option value="68574" data-select2-id="3792">AAK - NJ</nb-option>
+              <nb-option value="57415" data-select2-id="3793">AARHUSKARLSHAMN USA, INC. - NJ</nb-option>
+              <nb-option value="78112" data-select2-id="3794">AB Specialities  - IL</nb-option>
+              <nb-option value="59531" data-select2-id="3795">ABA PACKAGING - NJ</nb-option>
+              <nb-option value="34246" data-select2-id="3796">ABC - NJ</nb-option>
+              <nb-option value="93379" data-select2-id="3797">Ability Tri-Modal - CA</nb-option>
+              <nb-option value="99051" data-select2-id="3798">Accel Inc - OH</nb-option>
+              <nb-option value="78946" data-select2-id="3799">Accraply Inc - MN</nb-option>
+              <nb-option value="67347" data-select2-id="3800">Accutech - TN</nb-option>
+              <nb-option value="88604" data-select2-id="3801">Actitech - TX</nb-option>
+              <nb-option value="65880" data-select2-id="3802">Active Concepts - NC</nb-option>
+              <nb-option value="98216" data-select2-id="3803">ACTIVE CONCEPTS LLC - NC</nb-option>
+              <nb-option value="73299" data-select2-id="3804">ACTIVE INTL - NJ</nb-option>
+              <nb-option value="67947" data-select2-id="3805">Active Organics - TX</nb-option>
+              <nb-option value="98416" data-select2-id="3806">Acupac Packaging, Inc. - NJ</nb-option>
+              <nb-option value="79022" data-select2-id="3807">ADS - NY</nb-option>
+              <nb-option value="71423" data-select2-id="3808">ADuie Pyle - PA</nb-option>
+              <nb-option value="110821" data-select2-id="3809">Aduie Pyle (NJ0 - NJ</nb-option>
+              <nb-option value="75710" data-select2-id="3810">Aduiepyle - DE</nb-option>
+              <nb-option value="80817" data-select2-id="3811">Advantage Engeneering - IN</nb-option>
+              <nb-option value="1693" data-select2-id="3812">agi polymatrix - MA</nb-option>
+              <nb-option value="113068" data-select2-id="3813">Agilex - CA</nb-option>
+              <nb-option value="76401" data-select2-id="3814">AGISHOREWOOD - ON</nb-option>
+              <nb-option value="85430" data-select2-id="3815">Ajinomoto North America - NC</nb-option>
+              <nb-option value="80159" data-select2-id="3816">Akco Novel - NC</nb-option>
+              <nb-option value="111537" data-select2-id="3817">Alban Muller International - FL</nb-option>
+              <nb-option value="81651" data-select2-id="3818">Albea Americas - TN</nb-option>
+              <nb-option value="69425" data-select2-id="3819">Albea Group - TX</nb-option>
+              <nb-option value="89700" data-select2-id="3820">Albea Metal Americas - CT</nb-option>
+              <nb-option value="83922" data-select2-id="3821">Albea Mexicana - TX</nb-option>
+              <nb-option value="88934" data-select2-id="3822">Albea Washington NJ - NJ</nb-option>
+              <nb-option value="2049" data-select2-id="3823">ALCAN PACKAGING - TN</nb-option>
+              <nb-option value="59744" data-select2-id="3824">ALCAN PACKAGING WASHINGTON - NJ</nb-option>
+              <nb-option value="64161" data-select2-id="3825">ALFORD &amp; HOFF - AZ</nb-option>
+              <nb-option value="77239" data-select2-id="3826">Allied C/O Neocutis, INC - MI</nb-option>
+              <nb-option value="74595" data-select2-id="3827">Allied Printing - CT</nb-option>
+              <nb-option value="67310" data-select2-id="3828">ALocorp - TX</nb-option>
+              <nb-option value="62120" data-select2-id="3829">ALPHA of Iowa - IA</nb-option>
+              <nb-option value="1695" data-select2-id="3830">ALPHA PACKAGING - MO</nb-option>
+              <nb-option value="82244" data-select2-id="3831">Alpha Packaging Michigan  - MI</nb-option>
+              <nb-option value="98154" data-select2-id="3832">Alpha Packaging- UT - UT</nb-option>
+              <nb-option value="110907" data-select2-id="3833">Altira - FL</nb-option>
+              <nb-option value="76125" data-select2-id="3834">Alzo - NH</nb-option>
+              <nb-option value="1727" data-select2-id="3835">ALZO INTERNATIONAL - NJ</nb-option>
+              <nb-option value="87038" data-select2-id="3836">Alzo NJ - NJ</nb-option>
+              <nb-option value="95574" data-select2-id="3837">Amcor - MI</nb-option>
+              <nb-option value="96180" data-select2-id="3838">Amcor Rigid Plastic - CA</nb-option>
+              <nb-option value="98808" data-select2-id="3839">Amcor Rigid Plastics - ON</nb-option>
+              <nb-option value="83970" data-select2-id="3840">American International - CA</nb-option>
+              <nb-option value="82754" data-select2-id="3841">American Select - NJ</nb-option>
+              <nb-option value="80777" data-select2-id="3842">American Select Distribution - NJ</nb-option>
+              <nb-option value="79484" data-select2-id="3843">American Warehousing - TX</nb-option>
+              <nb-option value="86309" data-select2-id="3844">Amresco - OH</nb-option>
+              <nb-option value="56978" data-select2-id="3845">AMRESCO INC. - OH</nb-option>
+              <nb-option value="83644" data-select2-id="3846">AMS Advantance Media SRVS - CA</nb-option>
+              <nb-option value="93963" data-select2-id="3847">Amware - GA</nb-option>
+              <nb-option value="76797" data-select2-id="3848">Andrew Martin - CA</nb-option>
+              <nb-option value="96482" data-select2-id="3849">ANOMATIC CORP, NEW ALBANY, OH - OH</nb-option>
+              <nb-option value="96548" data-select2-id="3850">Anomatic Corporation - OH</nb-option>
+              <nb-option value="72286" data-select2-id="3851">APHENA HEALTH &amp; BEAUTY - MD</nb-option>
+              <nb-option value="78321" data-select2-id="3852">Applechem - NJ</nb-option>
+              <nb-option value="85509" data-select2-id="3853">applechem new  - NJ</nb-option>
+              <nb-option value="85088" data-select2-id="3854">applechem nj  - NJ</nb-option>
+              <nb-option value="65865" data-select2-id="3855">Aptar - IL</nb-option>
+              <nb-option value="80376" data-select2-id="3856">aptar crystal lake - IL</nb-option>
+              <nb-option value="80305" data-select2-id="3857">Aptar CT - CT</nb-option>
+              <nb-option value="97594" data-select2-id="3858">Aptar Eatontown - NJ</nb-option>
+              <nb-option value="110507" data-select2-id="3859">Aptar Eatotontown - NJ</nb-option>
+              <nb-option value="70737" data-select2-id="3860">Aptar Inc - IL</nb-option>
+              <nb-option value="75580" data-select2-id="3861">Aptar WI - WI</nb-option>
+              <nb-option value="88577" data-select2-id="3862">Aptar. - NJ</nb-option>
+              <nb-option value="79038" data-select2-id="3863">Arabahl - MO</nb-option>
+              <nb-option value="74091" data-select2-id="3864">Arcade - TN</nb-option>
+              <nb-option value="67875" data-select2-id="3865">Arch Chemical - NY</nb-option>
+              <nb-option value="69896" data-select2-id="3866">Arch Personal Care - NJ</nb-option>
+              <nb-option value="1745" data-select2-id="3867">ARCLAY LLC. - NY</nb-option>
+              <nb-option value="72509" data-select2-id="3868">Arde Barinco  - NJ</nb-option>
+              <nb-option value="77615" data-select2-id="3869">Ardmore - NJ</nb-option>
+              <nb-option value="87904" data-select2-id="3870">Argan Co. - CA</nb-option>
+              <nb-option value="76728" data-select2-id="3871">Arista Industries C/O Omega Protein - VA</nb-option>
+              <nb-option value="81049" data-select2-id="3872">ARIZONA NATURAL RESOURCES INC - AZ</nb-option>
+              <nb-option value="76850" data-select2-id="3873">Ark Logistics - IL</nb-option>
+              <nb-option value="61687" data-select2-id="3874">ARKAY PACKAGING - VA</nb-option>
+              <nb-option value="97118" data-select2-id="3875">ARKMAN LOGISTICS - IL</nb-option>
+              <nb-option value="97117" data-select2-id="3876">ARKMAN LOGISTICS (C/O. PACTRANS AIR &amp; SEA)  - IL</nb-option>
+              <nb-option value="81671" data-select2-id="3877">Armstrong International - MI</nb-option>
+              <nb-option value="58697" data-select2-id="3878">ARTISAN SCREEN - CA</nb-option>
+              <nb-option value="81134" data-select2-id="3879">Arylessence, Inc.    - GA</nb-option>
+              <nb-option value="98972" data-select2-id="3880">asadas - CA</nb-option>
+              <nb-option value="90516" data-select2-id="3881">Ascent Aromatics - NJ</nb-option>
+              <nb-option value="95544" data-select2-id="3882">Ascent Aromatics, Inc. - NJ</nb-option>
+              <nb-option value="95543" data-select2-id="3883">Ascent Aromatics, Inc. NJ New - NJ</nb-option>
+              <nb-option value="82008" data-select2-id="3884">ascent automatics  - NJ</nb-option>
+              <nb-option value="109651" data-select2-id="3885">Ashland  La Porte - TX</nb-option>
+              <nb-option value="79063" data-select2-id="3886">Ashland - TX</nb-option>
+              <nb-option value="124530" data-select2-id="3887">Ashland - TX - TX</nb-option>
+              <nb-option value="98816" data-select2-id="3888">ASHLAND C/O CANAL WAREHOUSING - TX</nb-option>
+              <nb-option value="62354" data-select2-id="3889">ASHLAND DISTRIBUTION - IL</nb-option>
+              <nb-option value="79809" data-select2-id="3890">Ashland KY - KY</nb-option>
+              <nb-option value="87451" data-select2-id="3891">Ashland Specialty Ingredients  - NJ</nb-option>
+              <nb-option value="85545" data-select2-id="3892">Athlon solutions - TX</nb-option>
+              <nb-option value="86530" data-select2-id="3893">Atlanta Bonded Warehouse - GA</nb-option>
+              <nb-option value="74594" data-select2-id="3894">Aurora Trucking - NY</nb-option>
+              <nb-option value="84693" data-select2-id="3895">Aware - CA</nb-option>
+              <nb-option value="112217" data-select2-id="3896">AWARE PRODUCTS - CA</nb-option>
+              <nb-option value="89639" data-select2-id="3897">Aware Products LLC - </nb-option>
+              <nb-option value="89589" data-select2-id="3898">Aware Products Warehouse 3 - CA</nb-option>
+              <nb-option value="81798" data-select2-id="3899">Aware Products, LLC - CA</nb-option>
+              <nb-option value="95596" data-select2-id="3900">Aware Products, LLC Prairie - CA</nb-option>
+              <nb-option value="124305" data-select2-id="3901">Axium - IL</nb-option>
+              <nb-option value="80009" data-select2-id="3902">Axium Plastics - ON</nb-option>
+              <nb-option value="96321" data-select2-id="3903">AXIUM PLASTICS OH - OH</nb-option>
+              <nb-option value="81711" data-select2-id="3904">B&amp;J Group - PA</nb-option>
+              <nb-option value="99169" data-select2-id="3905">Barnet Products c/o USA Container - NJ</nb-option>
+              <nb-option value="124541" data-select2-id="3906">Barnet Products c/o USA Container - NJ - NJ</nb-option>
+              <nb-option value="113356" data-select2-id="3907">Barnet Products c/o USA Container Co - NJ</nb-option>
+              <nb-option value="66949" data-select2-id="3908">Basf - NY</nb-option>
+              <nb-option value="88848" data-select2-id="3909">BASF (Columbus) - OH</nb-option>
+              <nb-option value="72746" data-select2-id="3910">Basf /Lesiant Logistics - SC</nb-option>
+              <nb-option value="98605" data-select2-id="3911">BASF C/O Nickey DC - TN</nb-option>
+              <nb-option value="89121" data-select2-id="3912">BASF Clearview  - TX</nb-option>
+              <nb-option value="91997" data-select2-id="3913">BASF CORP - NY</nb-option>
+              <nb-option value="124118" data-select2-id="3914">BASF CORP - NY - NY</nb-option>
+              <nb-option value="76067" data-select2-id="3915">Basf Rancho Dominguez - CA</nb-option>
+              <nb-option value="85801" data-select2-id="3916">BASF TN - TN</nb-option>
+              <nb-option value="77358" data-select2-id="3917">Basf/Cincinnatti - OH</nb-option>
+              <nb-option value="72592" data-select2-id="3918">BASF/COGNIS - IL</nb-option>
+              <nb-option value="124087" data-select2-id="3919">BASF/COGNIS - IL - IL</nb-option>
+              <nb-option value="75774" data-select2-id="3920">BASF/EDISON - NJ</nb-option>
+              <nb-option value="76432" data-select2-id="3921">Basf-Peekskill - NY</nb-option>
+              <nb-option value="83331" data-select2-id="3922">Basic Wharehouse - IL</nb-option>
+              <nb-option value="97593" data-select2-id="3923">Bayliss Botanicals - CA</nb-option>
+              <nb-option value="90392" data-select2-id="3924">BC Midwest Distribution Center - OH</nb-option>
+              <nb-option value="92436" data-select2-id="3925">BC Research - NJ</nb-option>
+              <nb-option value="71358" data-select2-id="3926">BEach body - CA</nb-option>
+              <nb-option value="78997" data-select2-id="3927">BELCAMP DC 9950 - MD</nb-option>
+              <nb-option value="67182" data-select2-id="3928">BEll  Flavors and Frangrancies - NY</nb-option>
+              <nb-option value="92167" data-select2-id="3929">Bell Flavors &amp; Fragrance - NY</nb-option>
+              <nb-option value="98791" data-select2-id="3930">BELL FLAVORS &amp; FRAGRANCES - NY</nb-option>
+              <nb-option value="84431" data-select2-id="3931">Belle-Aire Fragrances Inc - IL</nb-option>
+              <nb-option value="88010" data-select2-id="3932">Benefit Cosmetics Cranbury - NJ</nb-option>
+              <nb-option value="65590" data-select2-id="3933">BERlin Packaging - UT</nb-option>
+              <nb-option value="90318" data-select2-id="3934">Berry Global - MA</nb-option>
+              <nb-option value="97116" data-select2-id="3935">Berry Global Hot Springs - AR</nb-option>
+              <nb-option value="124185" data-select2-id="3936">Berry Global Hot Springs - AR - AR</nb-option>
+              <nb-option value="81805" data-select2-id="3937">BERRY PLASTIC  - MA</nb-option>
+              <nb-option value="2067" data-select2-id="3938">BERRY PLASTIC CORP. - MA</nb-option>
+              <nb-option value="61597" data-select2-id="3939">BERRY PLASTICS - CA</nb-option>
+              <nb-option value="89052" data-select2-id="3940">Berry Plastics (O'NEILL) - MA</nb-option>
+              <nb-option value="80207" data-select2-id="3941">Berry Plastics / Sulco - MA</nb-option>
+              <nb-option value="81816" data-select2-id="3942">Berry Plastics / Westfield - MA</nb-option>
+              <nb-option value="83764" data-select2-id="3943">Berry Plastics AK - AR</nb-option>
+              <nb-option value="82114" data-select2-id="3944">Berry Plastics Evansville  - IN</nb-option>
+              <nb-option value="87075" data-select2-id="3945">Berry Plastics O'Neill - MA</nb-option>
+              <nb-option value="86307" data-select2-id="3946">Bio Botanical - NY</nb-option>
+              <nb-option value="67669" data-select2-id="3947">Bio Chemical - FL</nb-option>
+              <nb-option value="110690" data-select2-id="3948">Bio Component Research - NJ</nb-option>
+              <nb-option value="87140" data-select2-id="3949">Biocogent LLC - NY</nb-option>
+              <nb-option value="93447" data-select2-id="3950">BIOSIL TECH 6A - NJ</nb-option>
+              <nb-option value="1683" data-select2-id="3951">BIOSIL TECHNOLOGIES, INC. - NJ</nb-option>
+              <nb-option value="74286" data-select2-id="3952">Biotech Laboratories - AZ</nb-option>
+              <nb-option value="85807" data-select2-id="3953">Blair Warehouse - NE</nb-option>
+              <nb-option value="92435" data-select2-id="3954">Blue Sun  - FL</nb-option>
+              <nb-option value="96484" data-select2-id="3955">Blue Sun International - FL</nb-option>
+              <nb-option value="113367" data-select2-id="3956">Bocchi Labs - CA</nb-option>
+              <nb-option value="88248" data-select2-id="3957">Bollore Logistics. - IL</nb-option>
+              <nb-option value="109931" data-select2-id="3958">BONDED LOGISTICS - NC</nb-option>
+              <nb-option value="67887" data-select2-id="3959">BRENNTAG - CA</nb-option>
+              <nb-option value="66614" data-select2-id="3960">brenntag ne - PA</nb-option>
+              <nb-option value="85803" data-select2-id="3961">Brenntag Or - OR</nb-option>
+              <nb-option value="62819" data-select2-id="3962">brenntag specialties - NJ</nb-option>
+              <nb-option value="82033" data-select2-id="3963">Brenntage - TX</nb-option>
+              <nb-option value="86441" data-select2-id="3964">Brenntage Speciaitie c/o Dallas Transfer - TX</nb-option>          
+            </nb-select>
+          </div>
+        </div>
+        <div class="full-name-inputs">
+          <input nbInput
+          placeholder="Pickup Date"
+            [nbDatepicker]="formpicker">
+          <nb-datepicker  #formpicker></nb-datepicker>
+         
+          <input type="text" nbInput fullWidth placeholder="Opening time">
+        </div>
+        <div class="row">
+          <div class="col-6">  <nb-checkbox> Requires Appointment?</nb-checkbox></div>
+          <div class="col-6">  <input type="text" nbInput fullWidth placeholder="Closing time"></div>
+        </div>
+       
+      </nb-card-body>
+    </nb-card>
+    <nb-card>
+      <nb-card-header>Consignee</nb-card-header>
+      <nb-card-body>
+        <div class="row">
+          <div class="col-4">
+            Location Name:
+          </div>
+          <div class="col-8">
+            <nb-select fullWidth selected="0">
+              <nb-option value="0" data-select2-id="">[Select]</nb-option>
+              <nb-option value="86555" data-select2-id="3778"> CARIBBEAN NATURAL PRODUCTS - NJ</nb-option>
+              <nb-option value="69196" data-select2-id="3779"> Innotrac - OH</nb-option>
+              <nb-option value="84238" data-select2-id="3780"> port city logistc  - GA</nb-option>
+              <nb-option value="98690" data-select2-id="3781">(Sheraton Crossroads Building ) Mibelle Biochemistry - NJ</nb-option>
+              <nb-option value="68573" data-select2-id="3782">.AAK - NJ</nb-option>
+              <nb-option selected="selected" value="0" data-select2-id="2829">[Select]</nb-option>
+              <nb-option value="113917" data-select2-id="3783">[Select] - NJ</nb-option>
+              <nb-option value="111775" data-select2-id="3784">36000067 - STEPHEN GOULD CORP - OH</nb-option>
+              <nb-option value="111867" data-select2-id="3785">36013858 - STEPHEN GOULD/IMPACT FULFILLM - OH</nb-option>
+              <nb-option value="76865" data-select2-id="3786">3DS Purac c/o Caravan Ingrediants - NJ</nb-option>
+              <nb-option value="97075" data-select2-id="3787">60638 - IL</nb-option>
+              <nb-option value="97076" data-select2-id="3788">91311 - CA</nb-option>
+              <nb-option value="83447" data-select2-id="3789">9315 Oso Ave. - CA</nb-option>
+              <nb-option value="96946" data-select2-id="3790">A. Duie Pyle - NJ</nb-option>
+              <nb-option value="72345" data-select2-id="3791">A.R. ARENA - NY</nb-option>
+              <nb-option value="68574" data-select2-id="3792">AAK - NJ</nb-option>
+              <nb-option value="57415" data-select2-id="3793">AARHUSKARLSHAMN USA, INC. - NJ</nb-option>
+              <nb-option value="78112" data-select2-id="3794">AB Specialities  - IL</nb-option>
+              <nb-option value="59531" data-select2-id="3795">ABA PACKAGING - NJ</nb-option>
+              <nb-option value="34246" data-select2-id="3796">ABC - NJ</nb-option>
+              <nb-option value="93379" data-select2-id="3797">Ability Tri-Modal - CA</nb-option>
+              <nb-option value="99051" data-select2-id="3798">Accel Inc - OH</nb-option>
+              <nb-option value="78946" data-select2-id="3799">Accraply Inc - MN</nb-option>
+              <nb-option value="67347" data-select2-id="3800">Accutech - TN</nb-option>
+              <nb-option value="88604" data-select2-id="3801">Actitech - TX</nb-option>
+              <nb-option value="65880" data-select2-id="3802">Active Concepts - NC</nb-option>
+              <nb-option value="98216" data-select2-id="3803">ACTIVE CONCEPTS LLC - NC</nb-option>
+              <nb-option value="73299" data-select2-id="3804">ACTIVE INTL - NJ</nb-option>
+              <nb-option value="67947" data-select2-id="3805">Active Organics - TX</nb-option>
+              <nb-option value="98416" data-select2-id="3806">Acupac Packaging, Inc. - NJ</nb-option>
+              <nb-option value="79022" data-select2-id="3807">ADS - NY</nb-option>
+              <nb-option value="71423" data-select2-id="3808">ADuie Pyle - PA</nb-option>
+              <nb-option value="110821" data-select2-id="3809">Aduie Pyle (NJ0 - NJ</nb-option>
+              <nb-option value="75710" data-select2-id="3810">Aduiepyle - DE</nb-option>
+              <nb-option value="80817" data-select2-id="3811">Advantage Engeneering - IN</nb-option>
+              <nb-option value="1693" data-select2-id="3812">agi polymatrix - MA</nb-option>
+              <nb-option value="113068" data-select2-id="3813">Agilex - CA</nb-option>
+              <nb-option value="76401" data-select2-id="3814">AGISHOREWOOD - ON</nb-option>
+              <nb-option value="85430" data-select2-id="3815">Ajinomoto North America - NC</nb-option>
+              <nb-option value="80159" data-select2-id="3816">Akco Novel - NC</nb-option>
+              <nb-option value="111537" data-select2-id="3817">Alban Muller International - FL</nb-option>
+              <nb-option value="81651" data-select2-id="3818">Albea Americas - TN</nb-option>
+              <nb-option value="69425" data-select2-id="3819">Albea Group - TX</nb-option>
+              <nb-option value="89700" data-select2-id="3820">Albea Metal Americas - CT</nb-option>
+              <nb-option value="83922" data-select2-id="3821">Albea Mexicana - TX</nb-option>
+              <nb-option value="88934" data-select2-id="3822">Albea Washington NJ - NJ</nb-option>
+              <nb-option value="2049" data-select2-id="3823">ALCAN PACKAGING - TN</nb-option>
+              <nb-option value="59744" data-select2-id="3824">ALCAN PACKAGING WASHINGTON - NJ</nb-option>
+              <nb-option value="64161" data-select2-id="3825">ALFORD &amp; HOFF - AZ</nb-option>
+              <nb-option value="77239" data-select2-id="3826">Allied C/O Neocutis, INC - MI</nb-option>
+              <nb-option value="74595" data-select2-id="3827">Allied Printing - CT</nb-option>
+              <nb-option value="67310" data-select2-id="3828">ALocorp - TX</nb-option>
+              <nb-option value="62120" data-select2-id="3829">ALPHA of Iowa - IA</nb-option>
+              <nb-option value="1695" data-select2-id="3830">ALPHA PACKAGING - MO</nb-option>
+              <nb-option value="82244" data-select2-id="3831">Alpha Packaging Michigan  - MI</nb-option>
+              <nb-option value="98154" data-select2-id="3832">Alpha Packaging- UT - UT</nb-option>
+              <nb-option value="110907" data-select2-id="3833">Altira - FL</nb-option>
+              <nb-option value="76125" data-select2-id="3834">Alzo - NH</nb-option>
+              <nb-option value="1727" data-select2-id="3835">ALZO INTERNATIONAL - NJ</nb-option>
+              <nb-option value="87038" data-select2-id="3836">Alzo NJ - NJ</nb-option>
+              <nb-option value="95574" data-select2-id="3837">Amcor - MI</nb-option>
+              <nb-option value="96180" data-select2-id="3838">Amcor Rigid Plastic - CA</nb-option>
+              <nb-option value="98808" data-select2-id="3839">Amcor Rigid Plastics - ON</nb-option>
+              <nb-option value="83970" data-select2-id="3840">American International - CA</nb-option>
+              <nb-option value="82754" data-select2-id="3841">American Select - NJ</nb-option>
+              <nb-option value="80777" data-select2-id="3842">American Select Distribution - NJ</nb-option>
+              <nb-option value="79484" data-select2-id="3843">American Warehousing - TX</nb-option>
+              <nb-option value="86309" data-select2-id="3844">Amresco - OH</nb-option>
+              <nb-option value="56978" data-select2-id="3845">AMRESCO INC. - OH</nb-option>
+              <nb-option value="83644" data-select2-id="3846">AMS Advantance Media SRVS - CA</nb-option>
+              <nb-option value="93963" data-select2-id="3847">Amware - GA</nb-option>
+              <nb-option value="76797" data-select2-id="3848">Andrew Martin - CA</nb-option>
+              <nb-option value="96482" data-select2-id="3849">ANOMATIC CORP, NEW ALBANY, OH - OH</nb-option>
+              <nb-option value="96548" data-select2-id="3850">Anomatic Corporation - OH</nb-option>
+              <nb-option value="72286" data-select2-id="3851">APHENA HEALTH &amp; BEAUTY - MD</nb-option>
+              <nb-option value="78321" data-select2-id="3852">Applechem - NJ</nb-option>
+              <nb-option value="85509" data-select2-id="3853">applechem new  - NJ</nb-option>
+              <nb-option value="85088" data-select2-id="3854">applechem nj  - NJ</nb-option>
+              <nb-option value="65865" data-select2-id="3855">Aptar - IL</nb-option>
+              <nb-option value="80376" data-select2-id="3856">aptar crystal lake - IL</nb-option>
+              <nb-option value="80305" data-select2-id="3857">Aptar CT - CT</nb-option>
+              <nb-option value="97594" data-select2-id="3858">Aptar Eatontown - NJ</nb-option>
+              <nb-option value="110507" data-select2-id="3859">Aptar Eatotontown - NJ</nb-option>
+              <nb-option value="70737" data-select2-id="3860">Aptar Inc - IL</nb-option>
+              <nb-option value="75580" data-select2-id="3861">Aptar WI - WI</nb-option>
+              <nb-option value="88577" data-select2-id="3862">Aptar. - NJ</nb-option>
+              <nb-option value="79038" data-select2-id="3863">Arabahl - MO</nb-option>
+              <nb-option value="74091" data-select2-id="3864">Arcade - TN</nb-option>
+              <nb-option value="67875" data-select2-id="3865">Arch Chemical - NY</nb-option>
+              <nb-option value="69896" data-select2-id="3866">Arch Personal Care - NJ</nb-option>
+              <nb-option value="1745" data-select2-id="3867">ARCLAY LLC. - NY</nb-option>
+              <nb-option value="72509" data-select2-id="3868">Arde Barinco  - NJ</nb-option>
+              <nb-option value="77615" data-select2-id="3869">Ardmore - NJ</nb-option>
+              <nb-option value="87904" data-select2-id="3870">Argan Co. - CA</nb-option>
+              <nb-option value="76728" data-select2-id="3871">Arista Industries C/O Omega Protein - VA</nb-option>
+              <nb-option value="81049" data-select2-id="3872">ARIZONA NATURAL RESOURCES INC - AZ</nb-option>
+              <nb-option value="76850" data-select2-id="3873">Ark Logistics - IL</nb-option>
+              <nb-option value="61687" data-select2-id="3874">ARKAY PACKAGING - VA</nb-option>
+              <nb-option value="97118" data-select2-id="3875">ARKMAN LOGISTICS - IL</nb-option>
+              <nb-option value="97117" data-select2-id="3876">ARKMAN LOGISTICS (C/O. PACTRANS AIR &amp; SEA)  - IL</nb-option>
+              <nb-option value="81671" data-select2-id="3877">Armstrong International - MI</nb-option>
+              <nb-option value="58697" data-select2-id="3878">ARTISAN SCREEN - CA</nb-option>
+              <nb-option value="81134" data-select2-id="3879">Arylessence, Inc.    - GA</nb-option>
+              <nb-option value="98972" data-select2-id="3880">asadas - CA</nb-option>
+              <nb-option value="90516" data-select2-id="3881">Ascent Aromatics - NJ</nb-option>
+              <nb-option value="95544" data-select2-id="3882">Ascent Aromatics, Inc. - NJ</nb-option>
+              <nb-option value="95543" data-select2-id="3883">Ascent Aromatics, Inc. NJ New - NJ</nb-option>
+              <nb-option value="82008" data-select2-id="3884">ascent automatics  - NJ</nb-option>
+              <nb-option value="109651" data-select2-id="3885">Ashland  La Porte - TX</nb-option>
+              <nb-option value="79063" data-select2-id="3886">Ashland - TX</nb-option>
+              <nb-option value="124530" data-select2-id="3887">Ashland - TX - TX</nb-option>
+              <nb-option value="98816" data-select2-id="3888">ASHLAND C/O CANAL WAREHOUSING - TX</nb-option>
+              <nb-option value="62354" data-select2-id="3889">ASHLAND DISTRIBUTION - IL</nb-option>
+              <nb-option value="79809" data-select2-id="3890">Ashland KY - KY</nb-option>
+              <nb-option value="87451" data-select2-id="3891">Ashland Specialty Ingredients  - NJ</nb-option>
+              <nb-option value="85545" data-select2-id="3892">Athlon solutions - TX</nb-option>
+              <nb-option value="86530" data-select2-id="3893">Atlanta Bonded Warehouse - GA</nb-option>
+              <nb-option value="74594" data-select2-id="3894">Aurora Trucking - NY</nb-option>
+              <nb-option value="84693" data-select2-id="3895">Aware - CA</nb-option>
+              <nb-option value="112217" data-select2-id="3896">AWARE PRODUCTS - CA</nb-option>
+              <nb-option value="89639" data-select2-id="3897">Aware Products LLC - </nb-option>
+              <nb-option value="89589" data-select2-id="3898">Aware Products Warehouse 3 - CA</nb-option>
+              <nb-option value="81798" data-select2-id="3899">Aware Products, LLC - CA</nb-option>
+              <nb-option value="95596" data-select2-id="3900">Aware Products, LLC Prairie - CA</nb-option>
+              <nb-option value="124305" data-select2-id="3901">Axium - IL</nb-option>
+              <nb-option value="80009" data-select2-id="3902">Axium Plastics - ON</nb-option>
+              <nb-option value="96321" data-select2-id="3903">AXIUM PLASTICS OH - OH</nb-option>
+              <nb-option value="81711" data-select2-id="3904">B&amp;J Group - PA</nb-option>
+              <nb-option value="99169" data-select2-id="3905">Barnet Products c/o USA Container - NJ</nb-option>
+              <nb-option value="124541" data-select2-id="3906">Barnet Products c/o USA Container - NJ - NJ</nb-option>
+              <nb-option value="113356" data-select2-id="3907">Barnet Products c/o USA Container Co - NJ</nb-option>
+              <nb-option value="66949" data-select2-id="3908">Basf - NY</nb-option>
+              <nb-option value="88848" data-select2-id="3909">BASF (Columbus) - OH</nb-option>
+              <nb-option value="72746" data-select2-id="3910">Basf /Lesiant Logistics - SC</nb-option>
+              <nb-option value="98605" data-select2-id="3911">BASF C/O Nickey DC - TN</nb-option>
+              <nb-option value="89121" data-select2-id="3912">BASF Clearview  - TX</nb-option>
+              <nb-option value="91997" data-select2-id="3913">BASF CORP - NY</nb-option>
+              <nb-option value="124118" data-select2-id="3914">BASF CORP - NY - NY</nb-option>
+              <nb-option value="76067" data-select2-id="3915">Basf Rancho Dominguez - CA</nb-option>
+              <nb-option value="85801" data-select2-id="3916">BASF TN - TN</nb-option>
+              <nb-option value="77358" data-select2-id="3917">Basf/Cincinnatti - OH</nb-option>
+              <nb-option value="72592" data-select2-id="3918">BASF/COGNIS - IL</nb-option>
+              <nb-option value="124087" data-select2-id="3919">BASF/COGNIS - IL - IL</nb-option>
+              <nb-option value="75774" data-select2-id="3920">BASF/EDISON - NJ</nb-option>
+              <nb-option value="76432" data-select2-id="3921">Basf-Peekskill - NY</nb-option>
+              <nb-option value="83331" data-select2-id="3922">Basic Wharehouse - IL</nb-option>
+              <nb-option value="97593" data-select2-id="3923">Bayliss Botanicals - CA</nb-option>
+              <nb-option value="90392" data-select2-id="3924">BC Midwest Distribution Center - OH</nb-option>
+              <nb-option value="92436" data-select2-id="3925">BC Research - NJ</nb-option>
+              <nb-option value="71358" data-select2-id="3926">BEach body - CA</nb-option>
+              <nb-option value="78997" data-select2-id="3927">BELCAMP DC 9950 - MD</nb-option>
+              <nb-option value="67182" data-select2-id="3928">BEll  Flavors and Frangrancies - NY</nb-option>
+              <nb-option value="92167" data-select2-id="3929">Bell Flavors &amp; Fragrance - NY</nb-option>
+              <nb-option value="98791" data-select2-id="3930">BELL FLAVORS &amp; FRAGRANCES - NY</nb-option>
+              <nb-option value="84431" data-select2-id="3931">Belle-Aire Fragrances Inc - IL</nb-option>
+              <nb-option value="88010" data-select2-id="3932">Benefit Cosmetics Cranbury - NJ</nb-option>
+              <nb-option value="65590" data-select2-id="3933">BERlin Packaging - UT</nb-option>
+              <nb-option value="90318" data-select2-id="3934">Berry Global - MA</nb-option>
+              <nb-option value="97116" data-select2-id="3935">Berry Global Hot Springs - AR</nb-option>
+              <nb-option value="124185" data-select2-id="3936">Berry Global Hot Springs - AR - AR</nb-option>
+              <nb-option value="81805" data-select2-id="3937">BERRY PLASTIC  - MA</nb-option>
+              <nb-option value="2067" data-select2-id="3938">BERRY PLASTIC CORP. - MA</nb-option>
+              <nb-option value="61597" data-select2-id="3939">BERRY PLASTICS - CA</nb-option>
+              <nb-option value="89052" data-select2-id="3940">Berry Plastics (O'NEILL) - MA</nb-option>
+              <nb-option value="80207" data-select2-id="3941">Berry Plastics / Sulco - MA</nb-option>
+              <nb-option value="81816" data-select2-id="3942">Berry Plastics / Westfield - MA</nb-option>
+              <nb-option value="83764" data-select2-id="3943">Berry Plastics AK - AR</nb-option>
+              <nb-option value="82114" data-select2-id="3944">Berry Plastics Evansville  - IN</nb-option>
+              <nb-option value="87075" data-select2-id="3945">Berry Plastics O'Neill - MA</nb-option>
+              <nb-option value="86307" data-select2-id="3946">Bio Botanical - NY</nb-option>
+              <nb-option value="67669" data-select2-id="3947">Bio Chemical - FL</nb-option>
+              <nb-option value="110690" data-select2-id="3948">Bio Component Research - NJ</nb-option>
+              <nb-option value="87140" data-select2-id="3949">Biocogent LLC - NY</nb-option>
+              <nb-option value="93447" data-select2-id="3950">BIOSIL TECH 6A - NJ</nb-option>
+              <nb-option value="1683" data-select2-id="3951">BIOSIL TECHNOLOGIES, INC. - NJ</nb-option>
+              <nb-option value="74286" data-select2-id="3952">Biotech Laboratories - AZ</nb-option>
+              <nb-option value="85807" data-select2-id="3953">Blair Warehouse - NE</nb-option>
+              <nb-option value="92435" data-select2-id="3954">Blue Sun  - FL</nb-option>
+              <nb-option value="96484" data-select2-id="3955">Blue Sun International - FL</nb-option>
+              <nb-option value="113367" data-select2-id="3956">Bocchi Labs - CA</nb-option>
+              <nb-option value="88248" data-select2-id="3957">Bollore Logistics. - IL</nb-option>
+              <nb-option value="109931" data-select2-id="3958">BONDED LOGISTICS - NC</nb-option>
+              <nb-option value="67887" data-select2-id="3959">BRENNTAG - CA</nb-option>
+              <nb-option value="66614" data-select2-id="3960">brenntag ne - PA</nb-option>
+              <nb-option value="85803" data-select2-id="3961">Brenntag Or - OR</nb-option>
+              <nb-option value="62819" data-select2-id="3962">brenntag specialties - NJ</nb-option>
+              <nb-option value="82033" data-select2-id="3963">Brenntage - TX</nb-option>
+              <nb-option value="86441" data-select2-id="3964">Brenntage Speciaitie c/o Dallas Transfer - TX</nb-option>          
+            </nb-select>
+          </div>
+        </div>
+       
+        <textarea rows="5" nbInput fullWidth shape="round"  placeholder="Important instructions"></textarea>
+        
+       
+      </nb-card-body>
+    </nb-card>
+   
+    <nb-card>
+      <nb-card-header>Documents</nb-card-header>
+      <nb-card-body>
+        <div class="row">
+          <div class="col-12">
+            <button type="button" class="btn btn-primary">Upload</button>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+    <div class="row pb-4">
+      <div class="col-12">
+        <button type="button" class="btn btn-success">Create Shipment</button>
+      </div>
+    </div>
+  </div>
+</div>
